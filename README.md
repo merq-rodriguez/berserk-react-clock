@@ -5,19 +5,21 @@
 [![NPM](https://img.shields.io/npm/v/@berserk-code/react-clock.svg)](https://www.npmjs.com/package/@berserk-code/react-clock) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 
-<div style="text-align:center;">
   <img 
-    style="width: 300px; heigh: 300px;"
+    align="right"
+    width="300"
+    heigh="300"
     src="https://s2.gifyu.com/images/Screen-Capture_select-area_20210104105105.gif"    
     alt="Screen-Capture_select-area_20210104105105.gif" 
     border="0" 
   />
   <img 
-     style="width: 300px; heigh: 300px;"
+    width="300"
+    heigh="300"
     src="https://s2.gifyu.com/images/Screen-Capture_select-area_20210104110638.gif"    
     alt="Screen-Capture_select-area_20210104105105.gif" 
     />
-</div>
+
 
 ## Install
 
@@ -29,9 +31,7 @@ npm install --save @berserk-code/react-clock
 
 ```jsx
 import React from 'react'
-
-import { Clock } from '@berserk/react-clock'
-import '@berserk/react-clock/dist/index.css'
+import Clock from '@berserk-code/react-clock'
 
 const App = () => {
   const color = '#59df7a';
@@ -53,7 +53,7 @@ export default App
 
 | Property   | Type                  | Default  | Description                                                                   |
 | :--------- | :-------------------- | :------- | :---------------------------------------------------------------------------- |
-| `gradient`  | `boolean`            | **false** | Add backgraund gradiant default  |
+| `gradient`  | `boolean`            | **false** | Add background gradiant default  |
 | `color`     | `string`             | **#59df7a** | Set color of clock canvas                 |
 | `dateColor` | `string`             | **#09b8be**    | Set color of date and time  inside the clock             |
 | `locales`   | `array`              | **['es-ES']** | Set locale language             |
